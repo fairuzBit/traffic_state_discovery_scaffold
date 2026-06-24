@@ -1,0 +1,14 @@
+ultralytics
+opencv-python
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+scipy
+tqdm
+pyyaml
+hdbscan
+supervision
+lap
+filterpy
