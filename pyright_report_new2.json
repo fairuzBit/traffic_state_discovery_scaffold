@@ -1,0 +1,958 @@
+{
+    "version": "1.1.411",
+    "time": "1782853277877",
+    "generalDiagnostics": [
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Operator \"*\" not supported for types \"Literal[2]\" and \"_T_co@tuple\"",
+            "range": {
+                "start": {
+                    "line": 137,
+                    "character": 30
+                },
+                "end": {
+                    "line": 137,
+                    "character": 45
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Operator \"<\" not supported for types \"_T_co@tuple\" and \"float\"",
+            "range": {
+                "start": {
+                    "line": 139,
+                    "character": 22
+                },
+                "end": {
+                    "line": 139,
+                    "character": 42
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"_T_co@tuple\" cannot be assigned to parameter \"x\" of type \"ConvertibleToFloat\" in function \"__new__\"\n  Type \"_T_co@tuple\" is not assignable to type \"ConvertibleToFloat\"\n    \"object*\" is not assignable to \"str\"\n    \"object*\" is incompatible with protocol \"Buffer\"\n      \"__buffer__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsFloat\"\n      \"__float__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present",
+            "range": {
+                "start": {
+                    "line": 154,
+                    "character": 28
+                },
+                "end": {
+                    "line": 154,
+                    "character": 37
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"_T_co@tuple\" cannot be assigned to parameter \"x\" of type \"ConvertibleToFloat\" in function \"__new__\"\n  Type \"_T_co@tuple\" is not assignable to type \"ConvertibleToFloat\"\n    \"object*\" is not assignable to \"str\"\n    \"object*\" is incompatible with protocol \"Buffer\"\n      \"__buffer__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsFloat\"\n      \"__float__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present",
+            "range": {
+                "start": {
+                    "line": 155,
+                    "character": 26
+                },
+                "end": {
+                    "line": 155,
+                    "character": 33
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "No overloads for \"convolve\" match the provided arguments",
+            "range": {
+                "start": {
+                    "line": 268,
+                    "character": 21
+                },
+                "end": {
+                    "line": 268,
+                    "character": 76
+                }
+            },
+            "rule": "reportCallIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"a\" of type \"_ArrayLike1DNumber_co\" in function \"convolve\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"_ArrayLike1DNumber_co\"\n    Type \"ExtensionArray\" is not assignable to type \"_ArrayLike1DNumber_co\"\n      \"ExtensionArray\" is incompatible with protocol \"_SupportsArray[dtype[_Number_co]]\"\n        \"__array__\" is not present\n      \"ExtensionArray\" is not assignable to \"Sequence[_Number_co | complex]\"",
+            "range": {
+                "start": {
+                    "line": 268,
+                    "character": 33
+                },
+                "end": {
+                    "line": 268,
+                    "character": 37
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"_T_co@tuple\" cannot be assigned to parameter \"x\" of type \"SupportsAbs[_T@abs]\" in function \"abs\"\n  \"object*\" is incompatible with protocol \"SupportsAbs[_T@abs]\"\n    \"__abs__\" is not present",
+            "range": {
+                "start": {
+                    "line": 272,
+                    "character": 29
+                },
+                "end": {
+                    "line": 272,
+                    "character": 36
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Operator \">\" not supported for types \"_T_co@tuple\" and \"Literal[0]\"",
+            "range": {
+                "start": {
+                    "line": 283,
+                    "character": 36
+                },
+                "end": {
+                    "line": 283,
+                    "character": 45
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"_T_co@tuple\" cannot be assigned to parameter \"x\" of type \"ConvertibleToFloat\" in function \"__new__\"\n  Type \"_T_co@tuple\" is not assignable to type \"ConvertibleToFloat\"\n    \"object*\" is not assignable to \"str\"\n    \"object*\" is incompatible with protocol \"Buffer\"\n      \"__buffer__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsFloat\"\n      \"__float__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present",
+            "range": {
+                "start": {
+                    "line": 286,
+                    "character": 27
+                },
+                "end": {
+                    "line": 286,
+                    "character": 32
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"_T_co@tuple\" cannot be assigned to parameter \"x\" of type \"ConvertibleToFloat\" in function \"__new__\"\n  Type \"_T_co@tuple\" is not assignable to type \"ConvertibleToFloat\"\n    \"object*\" is not assignable to \"str\"\n    \"object*\" is incompatible with protocol \"Buffer\"\n      \"__buffer__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsFloat\"\n      \"__float__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present",
+            "range": {
+                "start": {
+                    "line": 287,
+                    "character": 31
+                },
+                "end": {
+                    "line": 287,
+                    "character": 40
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Operator \"**\" not supported for types \"_T_co@tuple\" and \"Literal[2]\"",
+            "range": {
+                "start": {
+                    "line": 288,
+                    "character": 31
+                },
+                "end": {
+                    "line": 288,
+                    "character": 43
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"_T_co@tuple\" cannot be assigned to parameter \"x\" of type \"ConvertibleToFloat\" in function \"__new__\"\n  Type \"_T_co@tuple\" is not assignable to type \"ConvertibleToFloat\"\n    \"object*\" is not assignable to \"str\"\n    \"object*\" is incompatible with protocol \"Buffer\"\n      \"__buffer__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsFloat\"\n      \"__float__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present",
+            "range": {
+                "start": {
+                    "line": 289,
+                    "character": 29
+                },
+                "end": {
+                    "line": 289,
+                    "character": 36
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Operator \"<\" not supported for types \"_T_co@tuple\" and \"float\"",
+            "range": {
+                "start": {
+                    "line": 290,
+                    "character": 27
+                },
+                "end": {
+                    "line": 290,
+                    "character": 47
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"_T_co@tuple\" cannot be assigned to parameter \"x\" of type \"ConvertibleToFloat\" in function \"__new__\"\n  Type \"_T_co@tuple\" is not assignable to type \"ConvertibleToFloat\"\n    \"object*\" is not assignable to \"str\"\n    \"object*\" is incompatible with protocol \"Buffer\"\n      \"__buffer__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsFloat\"\n      \"__float__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present",
+            "range": {
+                "start": {
+                    "line": 293,
+                    "character": 38
+                },
+                "end": {
+                    "line": 293,
+                    "character": 49
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"_T_co@tuple\" cannot be assigned to parameter \"x\" of type \"ConvertibleToFloat\" in function \"__new__\"\n  Type \"_T_co@tuple\" is not assignable to type \"ConvertibleToFloat\"\n    \"object*\" is not assignable to \"str\"\n    \"object*\" is incompatible with protocol \"Buffer\"\n      \"__buffer__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsFloat\"\n      \"__float__\" is not present\n    \"object*\" is incompatible with protocol \"SupportsIndex\"\n      \"__index__\" is not present",
+            "range": {
+                "start": {
+                    "line": 294,
+                    "character": 36
+                },
+                "end": {
+                    "line": 294,
+                    "character": 45
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "No overloads for \"__call__\" match the provided arguments",
+            "range": {
+                "start": {
+                    "line": 338,
+                    "character": 27
+                },
+                "end": {
+                    "line": 338,
+                    "character": 53
+                }
+            },
+            "rule": "reportCallIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"Array | Unknown\" cannot be assigned to parameter \"x1\" of type \"_SupportsArrayUFunc\" in function \"__call__\"\n  Type \"Array | Unknown\" is not assignable to type \"_SupportsArrayUFunc\"\n    \"Array\" is incompatible with protocol \"_SupportsArrayUFunc\"\n      \"__array_ufunc__\" is not present",
+            "range": {
+                "start": {
+                    "line": 338,
+                    "character": 34
+                },
+                "end": {
+                    "line": 338,
+                    "character": 52
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal['freq']\" cannot be assigned to parameter \"extrapolate_trend\" of type \"int\" in function \"seasonal_decompose\"\n  \"Literal['freq']\" is not assignable to \"int\"",
+            "range": {
+                "start": {
+                    "line": 406,
+                    "character": 34
+                },
+                "end": {
+                    "line": 406,
+                    "character": 40
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "No overloads for \"var\" match the provided arguments",
+            "range": {
+                "start": {
+                    "line": 417,
+                    "character": 24
+                },
+                "end": {
+                    "line": 417,
+                    "character": 36
+                }
+            },
+            "rule": "reportCallIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"a\" of type \"_ArrayLikeNumeric_co\" in function \"var\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"_ArrayLikeNumeric_co\"\n    Type \"ExtensionArray\" is not assignable to type \"_ArrayLikeNumeric_co\"\n      \"ExtensionArray\" is incompatible with protocol \"_SupportsArray[dtype[number[Any, Any] | numpy.bool[builtins.bool] | object_ | timedelta64[Any]]]\"\n        \"__array__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_NestedSequence[_SupportsArray[dtype[number[Any, Any] | numpy.bool[builtins.bool] | object_ | timedelta64[Any]]]]\"\n        \"__reversed__\" is not present\n        \"count\" is not present\n        \"index\" is not present\n  ...",
+            "range": {
+                "start": {
+                    "line": 417,
+                    "character": 31
+                },
+                "end": {
+                    "line": 417,
+                    "character": 35
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/statistics_calculator.py",
+            "severity": "error",
+            "message": "Expression of type \"None\" cannot be assigned to parameter of type \"List[str]\"\n  \"None\" is not assignable to \"List[str]\"",
+            "range": {
+                "start": {
+                    "line": 437,
+                    "character": 51
+                },
+                "end": {
+                    "line": 437,
+                    "character": 55
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/traffic_state_analyzer.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"timestamps\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"_calculate_state_durations\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"ndarray[_AnyShape, dtype[Any]]\"\n    \"ExtensionArray\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 106,
+                    "character": 16
+                },
+                "end": {
+                    "line": 106,
+                    "character": 26
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/traffic_state_analyzer.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"timestamps\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"_analyze_transitions\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"ndarray[_AnyShape, dtype[Any]]\"\n    \"ExtensionArray\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 111,
+                    "character": 16
+                },
+                "end": {
+                    "line": 111,
+                    "character": 26
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/traffic_state_analyzer.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"timestamps\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"_detect_patterns\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"ndarray[_AnyShape, dtype[Any]]\"\n    \"ExtensionArray\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 116,
+                    "character": 16
+                },
+                "end": {
+                    "line": 116,
+                    "character": 26
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/analytics/traffic_state_analyzer.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"timestamps\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"_calculate_hourly_distribution\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"ndarray[_AnyShape, dtype[Any]]\"\n    \"ExtensionArray\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 121,
+                    "character": 16
+                },
+                "end": {
+                    "line": 121,
+                    "character": 26
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/clustering/dbscan_clustering.py",
+            "severity": "error",
+            "message": "Argument of type \"Literal[-1]\" cannot be assigned to parameter \"value\" of type \"signedinteger[_NBitIntP]\" in function \"count\"\n  \"Literal[-1]\" is not assignable to \"signedinteger[_NBitIntP]\"",
+            "range": {
+                "start": {
+                    "line": 93,
+                    "character": 37
+                },
+                "end": {
+                    "line": 93,
+                    "character": 39
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/clustering/dbscan_clustering.py",
+            "severity": "error",
+            "message": "Operator \"-\" not supported for types \"str\" and \"str | Unknown | Any\"\n  Operator \"-\" not supported for types \"str\" and \"str\" when expected type is \"_ArrayLike[_to_inexact64_unsafe] | _NestedSequence[complex]\"",
+            "range": {
+                "start": {
+                    "line": 254,
+                    "character": 38
+                },
+                "end": {
+                    "line": 254,
+                    "character": 60
+                }
+            },
+            "rule": "reportOperatorIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/clustering/dbscan_clustering.py",
+            "severity": "error",
+            "message": "Argument of type \"List[float]\" cannot be assigned to parameter \"value\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"__setitem__\"\n  \"List[float]\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 301,
+                    "character": 12
+                },
+                "end": {
+                    "line": 301,
+                    "character": 29
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/clustering/dbscan_clustering.py",
+            "severity": "error",
+            "message": "Argument of type \"list[str]\" cannot be assigned to parameter \"value\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"__setitem__\"\n  \"list[str]\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 304,
+                    "character": 8
+                },
+                "end": {
+                    "line": 304,
+                    "character": 29
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/detection/model_loader.py",
+            "severity": "error",
+            "message": "Expression of type \"None\" cannot be assigned to parameter of type \"list[str]\"\n  \"None\" is not assignable to \"list[str]\"",
+            "range": {
+                "start": {
+                    "line": 114,
+                    "character": 47
+                },
+                "end": {
+                    "line": 114,
+                    "character": 51
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/evaluation/result_analyzer.py",
+            "severity": "error",
+            "message": "No overloads for \"__getitem__\" match the provided arguments",
+            "range": {
+                "start": {
+                    "line": 172,
+                    "character": 37
+                },
+                "end": {
+                    "line": 172,
+                    "character": 81
+                }
+            },
+            "rule": "reportCallIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/evaluation/result_analyzer.py",
+            "severity": "error",
+            "message": "Argument of type \"tuple[Any, int]\" cannot be assigned to parameter \"item\" of type \"SequenceIndexer\" in function \"__getitem__\"\n  Type \"tuple[Any, int]\" is not assignable to type \"SequenceIndexer\"\n    \"tuple[Any, int]\" is not assignable to \"slice[Any, Any, Any]\"\n    \"tuple[Any, int]\" is not assignable to \"list[int]\"\n    \"tuple[Any, int]\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 172,
+                    "character": 37
+                },
+                "end": {
+                    "line": 172,
+                    "character": 81
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/features/flow_analyzer.py",
+            "severity": "error",
+            "message": "Type \"bool_\" is not assignable to return type \"bool\"\n  \"numpy.bool[builtins.bool]\" is not assignable to \"bool\"",
+            "range": {
+                "start": {
+                    "line": 164,
+                    "character": 19
+                },
+                "end": {
+                    "line": 164,
+                    "character": 40
+                }
+            },
+            "rule": "reportReturnType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/logger.py",
+            "severity": "error",
+            "message": "Type \"Logger | None\" is not assignable to return type \"Logger\"\n  Type \"Logger | None\" is not assignable to type \"Logger\"\n    \"None\" is not assignable to \"Logger\"",
+            "range": {
+                "start": {
+                    "line": 70,
+                    "character": 15
+                },
+                "end": {
+                    "line": 70,
+                    "character": 27
+                }
+            },
+            "rule": "reportReturnType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "Argument of type \"str\" cannot be assigned to parameter \"roi_path\" of type \"Path | None\" in function \"__init__\"\n  Type \"str\" is not assignable to type \"Path | None\"\n    \"str\" is not assignable to \"Path\"\n    \"str\" is not assignable to \"None\"",
+            "range": {
+                "start": {
+                    "line": 52,
+                    "character": 38
+                },
+                "end": {
+                    "line": 52,
+                    "character": 57
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "Argument of type \"List[Tuple[int, int]]\" cannot be assigned to parameter \"points\" of type \"List[Tuple[float, float]]\" in function \"add_roi\"\n  \"List[Tuple[int, int]]\" is not assignable to \"List[Tuple[float, float]]\"\n    Type parameter \"_T@list\" is invariant, but \"Tuple[int, int]\" is not the same as \"Tuple[float, float]\"\n    Consider switching from \"list\" to \"Sequence\" which is covariant",
+            "range": {
+                "start": {
+                    "line": 109,
+                    "character": 55
+                },
+                "end": {
+                    "line": 109,
+                    "character": 65
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "Argument of type \"str\" cannot be assigned to parameter \"filepath\" of type \"Path | None\" in function \"save_roi\"\n  Type \"str\" is not assignable to type \"Path | None\"\n    \"str\" is not assignable to \"Path\"\n    \"str\" is not assignable to \"None\"",
+            "range": {
+                "start": {
+                    "line": 112,
+                    "character": 38
+                },
+                "end": {
+                    "line": 112,
+                    "character": 62
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "\"detect\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 165,
+                    "character": 43
+                },
+                "end": {
+                    "line": 165,
+                    "character": 49
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "\"update\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 174,
+                    "character": 44
+                },
+                "end": {
+                    "line": 174,
+                    "character": 50
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "\"extract_frame_features\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 178,
+                    "character": 50
+                },
+                "end": {
+                    "line": 178,
+                    "character": 72
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "\"writer\" is possibly unbound",
+            "range": {
+                "start": {
+                    "line": 202,
+                    "character": 20
+                },
+                "end": {
+                    "line": 202,
+                    "character": 26
+                }
+            },
+            "rule": "reportPossiblyUnboundVariable"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "\"get_statistics\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 208,
+                    "character": 41
+                },
+                "end": {
+                    "line": 208,
+                    "character": 55
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "\"writer\" is possibly unbound",
+            "range": {
+                "start": {
+                    "line": 216,
+                    "character": 12
+                },
+                "end": {
+                    "line": 216,
+                    "character": 18
+                }
+            },
+            "rule": "reportPossiblyUnboundVariable"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "\"get_feature_dataframe\" is not a known attribute of \"None\"",
+            "range": {
+                "start": {
+                    "line": 227,
+                    "character": 45
+                },
+                "end": {
+                    "line": 227,
+                    "character": 66
+                }
+            },
+            "rule": "reportOptionalMemberAccess"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "Type \"tuple[DataFrame, Path | None]\" is not assignable to return type \"Tuple[DataFrame, Path]\"\n  Type \"Path | None\" is not assignable to type \"Path\"\n    \"None\" is not assignable to \"Path\"",
+            "range": {
+                "start": {
+                    "line": 228,
+                    "character": 28
+                },
+                "end": {
+                    "line": 228,
+                    "character": 45
+                }
+            },
+            "rule": "reportReturnType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "Argument of type \"ndarray[_AnyShape, dtype[Any]] | None\" cannot be assigned to parameter \"X\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"plot_cluster_scatter\"\n  Type \"ndarray[_AnyShape, dtype[Any]] | None\" is not assignable to type \"ndarray[_AnyShape, dtype[Any]]\"\n    \"None\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 455,
+                    "character": 12
+                },
+                "end": {
+                    "line": 455,
+                    "character": 31
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "Argument of type \"ndarray[_AnyShape, dtype[Any]] | None\" cannot be assigned to parameter \"X\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"plot_feature_importance\"\n  Type \"ndarray[_AnyShape, dtype[Any]] | None\" is not assignable to type \"ndarray[_AnyShape, dtype[Any]]\"\n    \"None\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 479,
+                    "character": 12
+                },
+                "end": {
+                    "line": 479,
+                    "character": 31
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/pipeline.py",
+            "severity": "error",
+            "message": "Argument of type \"ndarray[_AnyShape, dtype[Any]] | None\" cannot be assigned to parameter \"X\" of type \"ndarray[_AnyShape, dtype[Any]]\" in function \"plot_cluster_comparison\"\n  Type \"ndarray[_AnyShape, dtype[Any]] | None\" is not assignable to type \"ndarray[_AnyShape, dtype[Any]]\"\n    \"None\" is not assignable to \"ndarray[_AnyShape, dtype[Any]]\"",
+            "range": {
+                "start": {
+                    "line": 494,
+                    "character": 12
+                },
+                "end": {
+                    "line": 494,
+                    "character": 31
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/roi/roi_manager.py",
+            "severity": "error",
+            "message": "Argument of type \"str | None\" cannot be assigned to parameter \"key\" of type \"str\" in function \"get\"\n  Type \"str | None\" is not assignable to type \"str\"\n    \"None\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 189,
+                    "character": 33
+                },
+                "end": {
+                    "line": 189,
+                    "character": 41
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/roi/roi_selector.py",
+            "severity": "error",
+            "message": "Expected class but received \"(iterable: Iterable[object], /) -> bool\"",
+            "range": {
+                "start": {
+                    "line": 39,
+                    "character": 76
+                },
+                "end": {
+                    "line": 39,
+                    "character": 79
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/roi/roi_selector.py",
+            "severity": "error",
+            "message": "No overloads for \"putText\" match the provided arguments",
+            "range": {
+                "start": {
+                    "line": 133,
+                    "character": 12
+                },
+                "end": {
+                    "line": 138,
+                    "character": 13
+                }
+            },
+            "rule": "reportCallIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/roi/roi_selector.py",
+            "severity": "error",
+            "message": "Argument of type \"ndarray[_AnyShape, dtype[Any]] | None\" cannot be assigned to parameter \"img\" of type \"UMat\" in function \"putText\"\n  Type \"ndarray[_AnyShape, dtype[Any]] | None\" is not assignable to type \"UMat\"\n    \"ndarray[_AnyShape, dtype[Any]]\" is not assignable to \"UMat\"",
+            "range": {
+                "start": {
+                    "line": 134,
+                    "character": 16
+                },
+                "end": {
+                    "line": 134,
+                    "character": 26
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/temporal/temporal_aggregator.py",
+            "severity": "error",
+            "message": "No overloads for \"nan_to_num\" match the provided arguments",
+            "range": {
+                "start": {
+                    "line": 320,
+                    "character": 12
+                },
+                "end": {
+                    "line": 320,
+                    "character": 37
+                }
+            },
+            "rule": "reportCallIssue"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/temporal/temporal_aggregator.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"x\" of type \"ArrayLike\" in function \"nan_to_num\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"ArrayLike\"\n    Type \"ExtensionArray\" is not assignable to type \"ArrayLike\"\n      \"ExtensionArray\" is incompatible with protocol \"Buffer\"\n        \"__buffer__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_SupportsArray[dtype[Any]]\"\n        \"__array__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_NestedSequence[_SupportsArray[dtype[Any]]]\"\n        \"__reversed__\" is not present\n  ...",
+            "range": {
+                "start": {
+                    "line": 320,
+                    "character": 26
+                },
+                "end": {
+                    "line": 320,
+                    "character": 27
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/tracking/track_manager.py",
+            "severity": "error",
+            "message": "Expected class but received \"(iterable: Iterable[object], /) -> bool\"",
+            "range": {
+                "start": {
+                    "line": 225,
+                    "character": 48
+                },
+                "end": {
+                    "line": 225,
+                    "character": 51
+                }
+            },
+            "rule": "reportGeneralTypeIssues"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/visualization/traffic_visualizer.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"x\" of type \"ArrayLike\" in function \"fill_between\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"ArrayLike\"\n    Type \"ExtensionArray\" is not assignable to type \"ArrayLike\"\n      \"ExtensionArray\" is incompatible with protocol \"Buffer\"\n        \"__buffer__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_SupportsArray[dtype[Any]]\"\n        \"__array__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_NestedSequence[_SupportsArray[dtype[Any]]]\"\n        \"__reversed__\" is not present\n  ...",
+            "range": {
+                "start": {
+                    "line": 201,
+                    "character": 24
+                },
+                "end": {
+                    "line": 201,
+                    "character": 29
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/visualization/traffic_visualizer.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"x\" of type \"ArrayLike\" in function \"fill_between\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"ArrayLike\"\n    Type \"ExtensionArray\" is not assignable to type \"ArrayLike\"\n      \"ExtensionArray\" is incompatible with protocol \"Buffer\"\n        \"__buffer__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_SupportsArray[dtype[Any]]\"\n        \"__array__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_NestedSequence[_SupportsArray[dtype[Any]]]\"\n        \"__reversed__\" is not present\n  ...",
+            "range": {
+                "start": {
+                    "line": 202,
+                    "character": 24
+                },
+                "end": {
+                    "line": 202,
+                    "character": 29
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/visualization/traffic_visualizer.py",
+            "severity": "error",
+            "message": "Argument of type \"ArrayLike | Unknown\" cannot be assigned to parameter \"x\" of type \"ArrayLike\" in function \"fill_between\"\n  Type \"ArrayLike | Unknown\" is not assignable to type \"ArrayLike\"\n    Type \"ExtensionArray\" is not assignable to type \"ArrayLike\"\n      \"ExtensionArray\" is incompatible with protocol \"Buffer\"\n        \"__buffer__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_SupportsArray[dtype[Any]]\"\n        \"__array__\" is not present\n      \"ExtensionArray\" is incompatible with protocol \"_NestedSequence[_SupportsArray[dtype[Any]]]\"\n        \"__reversed__\" is not present\n  ...",
+            "range": {
+                "start": {
+                    "line": 203,
+                    "character": 24
+                },
+                "end": {
+                    "line": 203,
+                    "character": 29
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "/home/airuzulfi/Projects/traffic_state_discovery_scaffold/src/visualization/traffic_visualizer.py",
+            "severity": "error",
+            "message": "Operator \"*\" not supported for types \"ArrayLike | Unknown\" and \"Literal[100]\"\n  Operator \"*\" not supported for types \"ExtensionArray\" and \"Literal[100]\"",
+            "range": {
+                "start": {
+                    "line": 343,
+                    "character": 23
+                },
+                "end": {
+                    "line": 343,
+                    "character": 64
+                }
+            },
+            "rule": "reportOperatorIssue"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 43,
+        "errorCount": 59,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 12.789
+    }
+}
+

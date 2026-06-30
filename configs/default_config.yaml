@@ -1,0 +1,65 @@
+# Default configuration for Traffic State Discovery
+
+detection:
+  model_path: "models/yolov8x.pt"
+  confidence_threshold: 0.5
+  iou_threshold: 0.45
+  classes: [2, 3, 5, 7] # car, motorcycle, bus, truck
+  image_size: 1280
+  device: "cuda:0"
+  batch_size: 32
+
+tracking:
+  track_thresh: 0.5
+  track_buffer: 30
+  match_thresh: 0.8
+  frame_rate: 30
+  min_box_area: 100
+
+roi:
+  roi_path: "configs/roi_config.json"
+  default_polygon: null
+  interactive: true
+
+features:
+  pixel_to_meter_ratio: 0.05
+  road_length_meters: 50.0
+  road_width_meters: 7.0
+  queue_threshold_speed: 5.0
+  min_track_length: 5
+
+temporal:
+  windows_seconds: [10, 30, 60, 300]
+  default_window: 60
+
+clustering:
+  eps_range: [0.1, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0]
+  min_samples_range: [3, 5, 10, 15, 20]
+  eps: 0.5
+  min_samples: 5
+  metric: "euclidean"
+  grid_search: true
+
+visualization:
+  figure_size: [12, 8]
+  dpi: 150
+  colormap: "viridis"
+  font_size: 12
+  save_format: "png"
+  video_fps: 30
+  video_codec: "mp4v"
+  show_track_id: true
+  show_speed: true
+  show_roi: true
+  heatmap_alpha: 0.6
+
+paths:
+  root: "."
+  videos: "videos"
+  models: "models"
+  weights: "weights"
+  configs: "configs"
+  outputs: "outputs"
+  logs: "logs"
+  datasets: "datasets"
+  paper: "paper"
