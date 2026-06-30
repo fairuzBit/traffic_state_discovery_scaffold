@@ -147,6 +147,12 @@ class PaperPlotter:
     
     def _plot_cluster_scatter_paper(self, ax, X, result):
         """Paper-style cluster scatter plot."""
+        if X.shape[0] < 2:
+            ax.text(0.5, 0.5, 'Insufficient Data for PCA\n(Need >= 2 samples)', 
+                    ha='center', va='center', fontsize=10)
+            ax.set_axis_off()
+            return
+
         from sklearn.decomposition import PCA
         
         pca = PCA(n_components=2)
@@ -181,6 +187,11 @@ class PaperPlotter:
             states.append('Noise')
             sizes.append(result.n_noise)
         
+        if not sizes:
+            ax.text(0.5, 0.5, 'No State Data Available', ha='center', va='center', fontsize=10)
+            ax.set_axis_off()
+            return
+
         colors = plt.cm.Set3(np.linspace(0, 1, len(states)))
         wedges, texts, autotexts = ax.pie(
             sizes, labels=states, autopct='%1.1f%%',
@@ -201,6 +212,12 @@ class PaperPlotter:
             mask = result.labels == label
             cluster_features[f'C{label}'] = X[mask].mean(axis=0)
         
+        if not cluster_features:
+            ax.text(0.5, 0.5, 'No Clusters Discovered\n(All points identified as Noise)', 
+                    ha='center', va='center', fontsize=10)
+            ax.set_axis_off()
+            return
+
         # Create heatmap
         data = np.array(list(cluster_features.values()))
         cluster_labels = list(cluster_features.keys())

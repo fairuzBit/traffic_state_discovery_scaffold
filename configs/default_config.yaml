@@ -1,11 +1,11 @@
 # Default configuration for Traffic State Discovery
 
 detection:
-  model_path: "models/yolov8x.pt"
+  model_path: "models/yolov8n.pt"
   confidence_threshold: 0.5
   iou_threshold: 0.45
   classes: [2, 3, 5, 7] # car, motorcycle, bus, truck
-  image_size: 1280
+  image_size: 640
   device: "cuda:0"
   batch_size: 32
 
@@ -29,8 +29,8 @@ features:
   min_track_length: 5
 
 temporal:
-  windows_seconds: [10, 30, 60, 300]
-  default_window: 60
+  windows_seconds: [5, 10, 15]
+  default_window: 10
 
 clustering:
   eps_range: [0.1, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0]

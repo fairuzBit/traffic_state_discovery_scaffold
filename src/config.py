@@ -97,6 +97,17 @@ class PathsConfig:
     
     def __post_init__(self) -> None:
         """Create directories if they don't exist."""
+        # Convert any string paths to Path objects
+        self.root = Path(self.root)
+        self.videos = Path(self.videos)
+        self.models = Path(self.models)
+        self.weights = Path(self.weights)
+        self.configs = Path(self.configs)
+        self.outputs = Path(self.outputs)
+        self.logs = Path(self.logs)
+        self.datasets = Path(self.datasets)
+        self.paper = Path(self.paper)
+        
         for path in [self.videos, self.models, self.weights, self.configs,
                      self.outputs, self.logs, self.datasets, self.paper]:
             path.mkdir(parents=True, exist_ok=True)
@@ -124,7 +135,14 @@ class ProjectConfig:
         config = cls()
         for key, value in config_dict.items():
             if hasattr(config, key):
-                setattr(config, key, value)
+                current_attr = getattr(config, key)
+                if hasattr(current_attr, '__dataclass_fields__') and isinstance(value, dict):
+                    # Filter keys to only those expected by the dataclass constructor
+                    fields = current_attr.__dataclass_fields__
+                    filtered_value = {k: v for k, v in value.items() if k in fields}
+                    setattr(config, key, type(current_attr)(**filtered_value))
+                else:
+                    setattr(config, key, value)
         
         return config
     
